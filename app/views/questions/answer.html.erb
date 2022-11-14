@@ -1,0 +1,19 @@
+<figure class="text-center">
+  <blockquote class="blockquote">
+  <%= @message %>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <p class="fst-italic">-You</p>
+  </figcaption>
+</figure>
+
+<figure class="text-center">
+  <blockquote class="blockquote">
+  <%= @answer %>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <p class="fst-italic">-Your coach</p>
+  </figcaption>
+</figure>
+
+<%= link_to "ask a new question", ask_path %>
